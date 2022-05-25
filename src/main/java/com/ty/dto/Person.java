@@ -1,5 +1,6 @@
 package com.ty.dto;
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
@@ -18,7 +19,7 @@ public class Person {
 
 	private long phone;
 
-	@OneToOne(mappedBy = "person")
+	@OneToOne(mappedBy = "person" , fetch = FetchType.LAZY)
 	private Pan pan;
 
 	public int getId() {

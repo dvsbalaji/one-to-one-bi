@@ -18,8 +18,8 @@ public class TestGetPerson {
 		System.out.println("person mail  "+person.getEmail());
 		System.out.println("person phone "+person.getPhone());
 		
-		Pan pan =  person.getPan() ;
-		System.out.println("pan address "+pan.getAddress());
-		System.out.println("pan number  "+pan.getPanNumber());
+//		Pan pan =  person.getPan() ;
+//		System.out.println("pan address "+pan.getAddress());
+//		System.out.println("pan number  "+pan.getPanNumber());
 	}
 }
